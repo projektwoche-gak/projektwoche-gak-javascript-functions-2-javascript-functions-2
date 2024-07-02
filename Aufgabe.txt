@@ -1,0 +1,15 @@
+Übung zu den Wochentagen
+
+Schreibe eine Funktion namens returnDay.
+Diese Funktion nimmt einen Parameter (eine Zahl von 1-7) und gibt den Wochentag zurück (1 ist Montag, 2 ist Dienstag, usw.).
+Wenn die Zahl kleiner als 1 oder größer als 7 ist, sollte die Funktion null zurückgeben.
+In einigen Ländern wird der Sonntag als erster Tag der Woche betrachtet, aber für diese Übung verwenden wir den Montag als ersten Tag.
+
+Tipp: Speichere die Wochentage in einem Array oder verwende ein Objekt mit numerischen Schlüsseln.
+Wenn die Funktion aufgerufen wird, setze die Zahl in das von dir erstellte Array/Objekt ein, um den entsprechenden Tagesnamen abzurufen, und gib dann diesen Wert zurück.
+
+Beispiel:
+returnDay(1) // "Montag"
+returnDay(7) // "Sonntag"
+returnDay(4) // "Donnerstag"
+returnDay(0) // null
